@@ -8,7 +8,7 @@ if (mysqli_connect_errno()) {
 }
 
 
-$mysqliEm = new mysqli('192.168.1.249', 'rleao', 'Rdl261292sql', 'db-imatec');
+$mysqliEm = new mysqli('192.168.1.249', 'root', 'host%$9898', 'db-imatec');
 
 if (mysqli_connect_errno()) {
     printf("Connect failed: %s\n", mysqli_connect_error());
