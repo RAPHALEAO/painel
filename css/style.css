@@ -1,6 +1,5 @@
 table {
     border-collapse: collapse;
-   width: 100%;
 }
 th {
     background-color:#CCC;
@@ -73,12 +72,16 @@ h6 {
     cursor: pointer;
 }
 
-#btnativar:hover{
-    background-color: #bde7ff;
+#eventos{
+    width: 540px;
+    height: auto;
+
 }
 
-container.eventos {
-    position: relative;
+#process_list{
+    margin-top: 5px;
+}
 
-
+#sincronismo:hover{
+    background-color: #FFFF00;
 }

@@ -4,8 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 
-<link rel="stylesheet" href="../css/style.css">
-<link href="../images/mysql.ico" rel="icon" type="image/x-icon" />
+
+<link href="../images/mysql.ico" rel="icon" type="image/x-icon"/>
 
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 
@@ -15,8 +15,6 @@
 <?php
 
 $query = $mysqli->query($sqlEL);
-echo "<div id='container'>";
-echo "<center>";
 echo "<table>";
 echo "<thead>";
 echo "<caption>IMATEC - MYSQL EVENTOS</caption>";
@@ -44,7 +42,9 @@ while ($dados = $query->fetch_array()) {
 
 }
 $mysqli->close();
-?>
 
+echo "</tbody></table>";
+
+?>
 
 </html>
