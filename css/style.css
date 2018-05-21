@@ -1,0 +1,84 @@
+table {
+    border-collapse: collapse;
+   width: 100%;
+}
+th {
+    background-color:#CCC;
+    font-size: 12px;
+    color:#484848;
+    padding-left:4px;
+    padding-right:4px;
+    border-bottom:solid 1px #CCC;
+    height:26px;
+    padding-right:5px;
+    border: 1px solid #797979;
+}
+
+tr:nth-child(odd) {
+    background-color: #ececec;
+}
+
+tr:nth-child(even) {
+    background-color:#FFF;
+
+}
+
+tr, td {
+    height:26px;
+    padding-left:4px;
+    padding-right:2px;
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:12px;
+    border: 1px solid #797979;
+}
+tr {
+
+    color:#484848;
+
+}
+tr:hover {
+    background-color: #bde7ff;
+}
+
+caption{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 24px;
+    color:#484848;
+    border: 1px solid #797979;
+    border-bottom: none;
+}
+
+h4, h1 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 18px;
+    color: #484848;
+}
+
+h6 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    color: #484848;
+}
+
+#btnativar:disabled{
+    display: none;
+    cursor: not-allowed;
+}
+
+#btnativar:enabled{
+    padding: 16px;
+    font-size: 24px;
+    width: 250px;
+    border: none;
+    cursor: pointer;
+}
+
+#btnativar:hover{
+    background-color: #bde7ff;
+}
+
+container.eventos {
+    position: relative;
+
+
+}
